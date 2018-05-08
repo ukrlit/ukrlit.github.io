@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Інформація</title>
+	<style type="text/css">
+		body {
+			background-image: url(img/pattern.jpg);
+			font-family: 'Monospace';
+			color: #000000;
+			font-size: 23px;
+			margin: 0px;
+		}
+		.header {
+			position: relative;
+			height: 600px;
+			margin: 0px;
+		}
+		.txt{
+			position: relative;
+			margin-left: 550px;
+			margin-right: 100px;
+			color: #17282F;
+		}
+		.txt p{
+			text-align: left;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.footer{
+			position: relative;
+			width: 100%;
+			height: 125px;
+			background-color: #333;
+			color: white;
+			overflow: hidden;
+		}
+		.footer_info{
+			width: 100%;
+			height: 100%
+		}
+		.footer_info p{
+			text-align: center;
+			padding-top: 5px;
+		}
+		.topnav {
+			background-color: #333;
+			overflow: hidden;
+		}
+		.topnav ul {
+			margin: 0px;
+			padding: 0px;
+		}
+		.topnav li {
+			list-style-type: none;
+			display: inline;
+		}
+		.topnav a {
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+		.topnav a:active {
+			background-color: #838383;
+			color: white;
+		}
+		.site_name{
+			position: relative;
+			text-align: right;
+			height: 100%;
+			width: auto;
+			margin-left: 1000px;
+			margin-right: 20px;
+			margin-bottom: -10px;
+			margin-top: -5px;
+			padding-bottom: 0px;
+			padding-right: 5px;
+		}
+		.site_name p{
+			font-size: 19px;
+			color: #C91E21;
+			border-top: 2px solid #C91E21;
+			border-bottom: 2px solid #C91E21;
+			padding-right: 20px;
+		}
+		img{
+			margin-top: 20px;
+			margin-left: 20px;
+			width: 445px;
+			height: 445px;
+			border: 2px solid black;
+			border-radius: 20%;
+		}
+		.dropdown {
+		    float: left;
+		    overflow: hidden;
+		}
+
+		.dropdown .dropbtn {
+		    font-size: 20px;    
+		    border: none;
+		    outline: none;
+		    color: white;
+		    padding: 14px 16px;
+		    background-color: inherit;
+		    font-family: inherit;
+		    margin: 0;
+		}
+
+		.navbar a:hover, .dropdown:hover .dropbtn {
+		    background-color: #ddd;
+		    color: black;
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: #f9f9f9;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+		}
+
+		.dropdown-content a {
+		    float: none;
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		    text-align: left;
+		}
+
+		.dropdown-content a:hover {
+		    background-color: #326199;
+		    color: white;
+		}
+
+		.dropdown:hover .dropdown-content {
+		    display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="topnav">
+		<ul>
+			<li><a href="index.html">Головна</a></li>
+			<div class="dropdown">
+			    <button class="dropbtn">Письменники</button>
+			    <div class="dropdown-content">
+			    	<a href="Kotlyarevskyy.html">Іван Котляревський</a>
+			      	<a href="Shevchenko.html">Тарас Шевченко</a>
+			      	<a href="Franko.html">Іван Франко</a>
+			      	<a href="Karpenko.html">Іван Карпенко-Карий</a>
+			      	<a href="Kotz.html">Михайло Коцюбинський</a>
+			    </div>
+		  	</div> 
+			<li><a href="info.html">Інформація</a></li>
+		</ul>
+		<div class="site_name">
+			<p><b>Українська література</b></p>
+		</div>
+	</div>
+	<div class="header">
+		<img src="img/ME.jpg" alt="Це я" align="left">
+		<div class="txt">
+			<p>Я, Студінський Володимир Миколайович, шукав інформацію українських письменників і з метою виконання шкільного проекту з Інформатики створив сайт з Української літератури. Поки що на сайті можна знайти коротко біографію та бібліографію деяких митців "літературної ниви" і надіюсь, що сайт у майбутньому буде розширюватися.</p>
+
+		   <p>Українська література відіграє важливу роль у встановленні національної культури нашої держави. Письменники різних епох намагалися зробити її самобутньою. Кожен з них залишив свій спадок в українській літературі, який на даний час є безцінним. З часів Івана Котляревського вона розвивається до сих пір.</p>
+
+		   <p>Українська література - скарбниця народної мудрості, філософських роздумів і багатого життєвого досвіду.</p>
+		</div> 
+	</div>
+	<div class="footer">
+		<div class="footer_info">
+			<p>@ 2018 Студінський Володимир Миколайович</p>
+			<p>Email: vldstdnsk@gmail.com</p>
+		</div>
+	</div>
+</html>
